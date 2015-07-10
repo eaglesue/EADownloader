@@ -14,6 +14,7 @@
 		18E15DAC1B4E911700039CB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E15DAB1B4E911700039CB1 /* Images.xcassets */; };
 		18E15DAF1B4E911700039CB1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E15DAD1B4E911700039CB1 /* LaunchScreen.xib */; };
 		18E15DBB1B4E911700039CB1 /* CustomDownloaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E15DBA1B4E911700039CB1 /* CustomDownloaderTests.m */; };
+		18E15DC61B4E913C00039CB1 /* EADownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E15DC51B4E913C00039CB1 /* EADownloader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		18E15DB41B4E911700039CB1 /* CustomDownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomDownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E15DB91B4E911700039CB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E15DBA1B4E911700039CB1 /* CustomDownloaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomDownloaderTests.m; sourceTree = "<group>"; };
+		18E15DC41B4E913C00039CB1 /* EADownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EADownloader.h; sourceTree = "<group>"; };
+		18E15DC51B4E913C00039CB1 /* EADownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EADownloader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				18E15DA31B4E911700039CB1 /* AppDelegate.m */,
 				18E15DA51B4E911700039CB1 /* ViewController.h */,
 				18E15DA61B4E911700039CB1 /* ViewController.m */,
+				18E15DC41B4E913C00039CB1 /* EADownloader.h */,
+				18E15DC51B4E913C00039CB1 /* EADownloader.m */,
 				18E15DA81B4E911700039CB1 /* Main.storyboard */,
 				18E15DAB1B4E911700039CB1 /* Images.xcassets */,
 				18E15DAD1B4E911700039CB1 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				18E15DA71B4E911700039CB1 /* ViewController.m in Sources */,
 				18E15DA41B4E911700039CB1 /* AppDelegate.m in Sources */,
+				18E15DC61B4E913C00039CB1 /* EADownloader.m in Sources */,
 				18E15DA11B4E911700039CB1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
